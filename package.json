@@ -6,8 +6,16 @@
   "scripts": {
     "build": "webpack --progress --optimize-minimize"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollton/jspdf-font.git"
+  },
   "author": "holltonliu@163.com",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hollton/jspdf-font/issues"
+  },
+  "homepage": "https://github.com/hollton/jspdf-font#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
