@@ -5,11 +5,11 @@ const initFont = (jsPDFAPI, fontFamily = 'Microsoft YaHei') => {
         return
     }
     const font = fonts[fontFamily]
-    var callAddFont = () => {
-        this.addFileToVFS(`${fontFamily}.ttf`, font);
-        this.addFont(`${fontFamily}.ttf`, fontFamily, 'normal');
+    var callAddFont = function() {
+        this.addFileToVFS(`${fontFamily}-normal.ttf`, font);
+        this.addFont(`${fontFamily}-normal.ttf`, fontFamily, 'normal');
     };
     jsPDFAPI.events.push(['addFonts', callAddFont])
 }
 
-export { initFont }
+export default initFont

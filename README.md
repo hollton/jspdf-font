@@ -12,16 +12,16 @@
 ```
 npm install jspdf-font  --save
 
-import {jspdfFont} from 'jspdf-font'
-jspdfFont(jsPDFAPI, fontFamily)
+import initFont from 'jspdf-font'
+initFont(jsPDFAPI, fontFamily)
 ```
 
 ### script
 ```
 <script src="index.js"></script>
 
-const {jspdfFont} = window.jspdfFont
-jspdfFont(jsPDFAPI, fontFamily)
+const {initFont} = window.jspdfFont
+initFont(jsPDFAPI, fontFamily)
 ```
 
 ## 参数 Params
