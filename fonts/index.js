@@ -1,5 +1,5 @@
-import SimSunBold from './SimSunBold'
+import SongtiSCBlack from './SongtiSCBlack'
 
 export default {
-    SimSunBold
+    SongtiSCBlack
 }

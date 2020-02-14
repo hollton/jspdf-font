@@ -1,6 +1,6 @@
 import fonts from '../fonts'
 
-const initFont = (jsPDFAPI, fontFamily = 'SimSunBold') => {
+const initFont = (jsPDFAPI, fontFamily = 'SongtiSCBlack') => {
     if (!jsPDFAPI) {
         throw new Error('缺失jsPDF.API')
     }
