@@ -27,4 +27,4 @@ initFont(jsPDFAPI, fontFamily)
 ## 参数 Params
 * @param 
 * jsPDFAPI: jsPDF.API
-* fontFamily: 字体名称，默认'Microsoft YaHei'
+* fontFamily: 字体名称，默认'SimSunBold' 汉仪超粗宋简
