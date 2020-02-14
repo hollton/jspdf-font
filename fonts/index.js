@@ -1,5 +1,5 @@
-import msyh from './Microsoft YaHei'
+import SimSunBold from './SimSunBold'
 
 export default {
-    'Microsoft YaHei': msyh
+    SimSunBold
 }

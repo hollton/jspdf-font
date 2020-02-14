@@ -1,6 +1,6 @@
 import fonts from '../fonts'
 
-const initFont = (jsPDFAPI, fontFamily = 'Microsoft YaHei') => {
+const initFont = (jsPDFAPI, fontFamily = 'SimSunBold') => {
     if (!jsPDFAPI) {
         return
     }
