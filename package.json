@@ -1,6 +1,6 @@
 {
   "name": "jspdf-font",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "[![npm](https://img.shields.io/npm/v/jspdf-font.svg)](https://www.npmjs.com/package/jspdf-font)  [![LICENSE MIT](https://img.shields.io/npm/l/jspdf-font.svg)](https://www.npmjs.com/package/jspdf-font)",
   "main": "index.js",
   "scripts": {

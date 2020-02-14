@@ -2,7 +2,7 @@ import fonts from '../fonts'
 
 const initFont = (jsPDFAPI, fontFamily = 'SimSunBold') => {
     if (!jsPDFAPI) {
-        return
+        throw new Error('缺失jsPDF.API')
     }
     const font = fonts[fontFamily]
     var callAddFont = function() {
@@ -10,6 +10,7 @@ const initFont = (jsPDFAPI, fontFamily = 'SimSunBold') => {
         this.addFont(`${fontFamily}-normal.ttf`, fontFamily, 'normal');
     };
     jsPDFAPI.events.push(['addFonts', callAddFont])
+    return fontFamily
 }
 
 export default initFont
